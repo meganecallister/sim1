@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.red-box {
+  background-color: red;
+  height: 500px;
+  width: 450px;
+}
+
+/* 22C-2 */
+.green-box {
+  background-color: #3AD886;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img-box {
+  background-color: white;
+  width: 80%;
+  height: 150px;
+}
+.inputs {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+
+}
+
+input {
+  margin: 10px;
+}
+
+.two-buttons {
+  width: 250px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+}
