@@ -16,7 +16,7 @@ massive( process.env.CONNECTION_STRING )
 
 app.get('/api/inventory', sc.read)
 app.post('/api/postProducts', sc.create)
-// app.put('/api/updateProducts', sc.update)
+app.put('/api/product', sc.update)
 // app.delete('/api/deleteProducts', sc.delete)
 
 

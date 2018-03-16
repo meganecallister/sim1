@@ -18,7 +18,13 @@ main {
   width: 450px;
 }
 
-/* 22C-2 */
+/* 22C-2
+23E
+27C
+27D
+27F
+27G
+24D */
 .green-box {
   background-color: #3AD886;
   display: flex;
@@ -27,6 +33,7 @@ main {
   width: 350px;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 10px;
 }
 .img-box {
   background-color: white;
@@ -41,7 +48,7 @@ main {
   width: 80%;
 
 }
-
+/* 24C */
 input {
   margin: 10px;
 }
